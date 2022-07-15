@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <title>TELMECH</title>
+  <link rel="shortcut icon" href="logo.png">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="styl.css" rel="stylesheet" type="text/css">
+</head>
+<div class="container">
+<body >
+
+<div class="container-fluid" style="text-align: center">
+  <br>
+<picture>
+        <source media="(max-width: 764px)" srcset="napis4.png">
+        <source media="(max-width: 990px)" srcset="napis3.png">
+        <source media="(max-width: 1200px)" srcset="napis2.png">		
+        <img src="napis1.png" style="width:auto" alt="green parrot picture">
+</picture>
+  <br>  <br>  <br>
+ 
+</div>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <a class="navbar-brand" href="glowna.html">Główna</a>
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="onas.html">O nas</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="uslugi.html">Usługi</a>
+    </li>
+	    <li class="nav-item">
+      <a class="nav-link" href="kontakt.html">Kontakt</a>
+    </li>
+  </ul>
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <!-- Tytuł -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <!-- Treść -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <!-- Zdjęcie -->
+    </div>
+    <div class="col-sm-6">
+      <!-- Zdjęcie -->
+    </div>
+    <div class="col-sm-4">
+      <!-- Zdjęcie -->
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="d-flex justify-content-center bg-secondary mb-3">
+  <div class="p-2  flex-fill ">
+			<div class="container-fluid">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2556.0131349641297!2d19.995068415720898!3d50.16089097943639!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471651a83590173d%3A0xf68790f7f598bdc5!2zRMWCdWdhIDM5LCAzMi0wOTEgTWFzxYJvbWnEhWNh!5e0!3m2!1spl!2spl!4v1624114449183!5m2!1spl!2spl" width="400" height="400"  style="border:0;" a loading="faster"></iframe>
+
+
+
+
+</div>
+  </div>
+  <div class="p-2 flex-fill">
+		<form method="POST" action='emailSender.php' enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Imię</label>
+                    <input type="text" class="form-control" id="name" name="name">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Adres e-mail</label>
+                    <input type="email" class="form-control" id="email" name="email">
+                </div>
+
+                <div class="mb-3">
+                    <label for="message" class="form-label">Treść wiadomości</label>
+                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                </div>
+				                        <div class="mb-3">
+                  <input type="file" class="form-control" id="formFile" name="formFile">
+                </div>
+				<div  class="mb-3">
+                    <input type="checkbox" name="zgoda" value="zgoda" required> Wypełnienie formularza oznacza, że podane w nim dane osobowe będą przetwarzane w celu udzielenia odpowiedzi, przesłanioferty oraz kontaktu w jej sprawie.<a style='color:blue;' href="dane.pdf"> Tutaj dowiesz się jak przetwarzamy Twoje dane.</a>
+                </div>
+
+                <div class="mb-3">
+                    <input class="btn btn-primary" type="submit" value="Wyślij formularz">
+                </div>
+            </form>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+  <!-- Grid container -->
+  <div class="container p-4">
+  
+  <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Adres:</h5>
+<a href="https://goo.gl/maps/k2P8XTaFB3ukxsgr7">
+        <p >
+          ul. Długa 39 32-092 Masłomiąca <br> gmina Michałowice
+        </p>
+		
+		</a>
+		<h5 class="text-uppercase">Godziny pracy:</h5>
+
+        <p>
+Poniedziałek-Piątek <br> 8-16
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Telefon:</h5>
+
+        <p>
+          508-332-924<br>514-310-499
+        </p>
+		<h5 class="text-uppercase">Bezpośredni mail:</h5>
+
+        <p>
+				telmech1@wp.pl
+        </p>
+      </div>
+      <!--Grid column-->
+    </div>
+    
+
+    <!-- Section: Text -->
+    <section class="mb-4">
+      <p>
+Zamówienia można składać za pośrednictwem telefonu komurkowego, maila oraz formularza znajdującego się na stronie. Z przyjemnością odpowiemy na państwa pytania.
+      </p>
+    </section>
+
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+<br>
+<img src="mlogo.png" alt="Tekst alternatywny">
+<br><br>
+  <p> © 2021 Copyright: Wszelkie prawa zastrzeżone.</p>
+  <p>Strona stworzona przy pomocy Bootstrap.</p>
+
+  </div>
+
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+</div>
+</html>
+
+
